@@ -1,0 +1,117 @@
+{
+  "accuracy": 0.8801469614722627,
+  "f1_weighted": 0.8794706840993254,
+  "roc_auc": 0.9786939060366041,
+  "classification_report": {
+    "0": {
+      "precision": 0.6819848447812271,
+      "recall": 0.8089301246738185,
+      "f1-score": 0.7400530503978779,
+      "support": 3449.0
+    },
+    "1": {
+      "precision": 0.7630566245189665,
+      "recall": 0.5841750841750841,
+      "f1-score": 0.6617401668653159,
+      "support": 2376.0
+    },
+    "2": {
+      "precision": 0.9404091313370887,
+      "recall": 0.9550381372942593,
+      "f1-score": 0.9476671811980282,
+      "support": 9964.0
+    },
+    "3": {
+      "precision": 0.9325449871465296,
+      "recall": 0.9215526877349863,
+      "f1-score": 0.927016252683226,
+      "support": 9841.0
+    },
+    "4": {
+      "precision": 0.8586810228802153,
+      "recall": 0.8354430379746836,
+      "f1-score": 0.8469026548672567,
+      "support": 4582.0
+    },
+    "accuracy": 0.8801469614722627,
+    "macro avg": {
+      "precision": 0.8353353221328053,
+      "recall": 0.8210278143705665,
+      "f1-score": 0.8246758612023409,
+      "support": 30212.0
+    },
+    "weighted avg": {
+      "precision": 0.8820030623426589,
+      "recall": 0.8801469614722627,
+      "f1-score": 0.8794706840993254,
+      "support": 30212.0
+    }
+  },
+  "trial_params": {
+    "freeze_n": 0,
+    "batch_size": 16,
+    "lr": 1.0401663679887314e-05,
+    "weight_decay": 0.001,
+    "dropout_rate": 0.1,
+    "warmup_ratio": 0.06,
+    "scheduler_type": "cosine",
+    "patience": 3,
+    "max_epochs": 3
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.45848516898644687,
+      "train_acc": 0.8774,
+      "train_f1": 0.8775812964596588,
+      "val_loss": 0.3587001200041612,
+      "val_acc": 0.8726664901363697,
+      "val_f1": 0.872823899634582,
+      "overfitting_analysis": {
+        "accuracy_gap": 0.004733509863630303,
+        "loss_gap": 0.018722314617491853,
+        "f1_gap": 0.0047573968250768095,
+        "trend_overfitting": false,
+        "is_overfitting": false,
+        "severity": "none",
+        "recommendation": "Good generalization. Model performing well."
+      }
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.3418670068971272,
+      "train_acc": 0.8958,
+      "train_f1": 0.8952415069552746,
+      "val_loss": 0.35602606469942794,
+      "val_acc": 0.8785912882298424,
+      "val_f1": 0.8777939879460911,
+      "overfitting_analysis": {
+        "accuracy_gap": 0.017208711770157592,
+        "loss_gap": 0.05961993701439561,
+        "f1_gap": 0.01744751900918351,
+        "trend_overfitting": false,
+        "is_overfitting": false,
+        "severity": "none",
+        "recommendation": "Good generalization. Model performing well."
+      }
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.2969896505080878,
+      "train_acc": 0.9024,
+      "train_f1": 0.9019441194840215,
+      "val_loss": 0.3590836300235587,
+      "val_acc": 0.8801469614722627,
+      "val_f1": 0.8794706840993254,
+      "overfitting_analysis": {
+        "accuracy_gap": 0.0222530385277373,
+        "loss_gap": 0.08210871538046643,
+        "f1_gap": 0.02247343538469615,
+        "trend_overfitting": false,
+        "is_overfitting": false,
+        "severity": "none",
+        "recommendation": "Good generalization. Model performing well."
+      }
+    }
+  ]
+}

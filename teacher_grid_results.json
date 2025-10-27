@@ -1,0 +1,66 @@
+[
+  {
+    "freeze_n": 2,
+    "epochs": 3,
+    "lr": 1e-05,
+    "batch_size": 16,
+    "weight_decay": 0.01,
+    "val_acc": 0.8802793591950219
+  },
+  {
+    "freeze_n": 2,
+    "epochs": 3,
+    "lr": 2e-05,
+    "batch_size": 16,
+    "weight_decay": 0.01,
+    "val_acc": 0.8823315238977889
+  },
+  {
+    "freeze_n": 2,
+    "epochs": 3,
+    "lr": 3e-05,
+    "batch_size": 16,
+    "weight_decay": 0.01,
+    "val_acc": 0.8814047398384748
+  },
+  {
+    "freeze_n": 2,
+    "epochs": 3,
+    "lr": 5e-06,
+    "batch_size": 16,
+    "weight_decay": 0.01,
+    "val_acc": 0.8809082483781279
+  },
+  {
+    "freeze_n": 2,
+    "epochs": 4,
+    "lr": 1e-05,
+    "batch_size": 16,
+    "weight_decay": 0.01,
+    "val_acc": 0.8820998278829604
+  },
+  {
+    "freeze_n": 2,
+    "epochs": 4,
+    "lr": 2e-05,
+    "batch_size": 16,
+    "weight_decay": 0.01,
+    "val_acc": 0.8802793591950219
+  },
+  {
+    "freeze_n": 2,
+    "epochs": 4,
+    "lr": 3e-05,
+    "batch_size": 16,
+    "weight_decay": 0.01,
+    "val_acc": 0.8812392426850258
+  },
+  {
+    "freeze_n": 2,
+    "epochs": 4,
+    "lr": 5e-06,
+    "batch_size": 16,
+    "weight_decay": 0.01,
+    "val_acc": 0.8801469614722627
+  }
+]
